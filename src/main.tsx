@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import Homepage from "./pages/Home.tsx";
 import { FollowerPointerCard } from "./pages/following-pointer.tsx";
 import Nav from "./pages/nav.tsx";
-import Contact from "./pages/contact.tsx";
 import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
