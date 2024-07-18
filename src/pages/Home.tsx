@@ -28,7 +28,7 @@ function Homepage() {
           src={ImageName}
         ></img>
         <h1 className="pt-4 pb-12 text-2xl text-center w-2/5">
-          hey! if i were to describe myself in a word, i would say:
+          hi. if i were to describe myself in a word, i would say:
           <br />
           i am a<FlipWords words={words1} />
         </h1>
