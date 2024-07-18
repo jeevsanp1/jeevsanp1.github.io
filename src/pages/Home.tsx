@@ -1,11 +1,10 @@
-import { useState } from "react";
 import { FlipWords } from "./flipwords";
 import ".././index.css";
 import SanjeevImage from "../assets/sanjeev.jpeg";
 import ImageName from "../assets/name.svg";
 import PeakOne from "../assets/layered-peaks-haikei.svg";
 import WaveOne from "../assets/layered-waves-haikei.svg";
-import SanjeevResume from "../assets/Resumé.pdf";
+
 import Robotics from "../assets/Robotics.jpeg";
 
 function Homepage() {
