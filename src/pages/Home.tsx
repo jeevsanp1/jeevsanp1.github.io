@@ -63,11 +63,23 @@ function Homepage() {
         <img className="w-full" src={WaveOne} />
         <div className="w-full bg-emerald-300 text-emerald-800">
           <div className="pl-5 pb-10 pt-32 flex flex-row-reverse space-x-10">
+            <p className="pt-4 text-lg w-1/3">
+              in addition, i have spent the last few years mentoring middle
+              school robotics as a design coach. we have won regional
+              tournaments as the first seed alliance.
+            </p>
+            <p className="pt-4 text-lg w-1/3">
+              i am a part of frc team 4384. we are based in troy, mi. during my
+              time here, i have worked on nearly every subteam. i started in
+              mechanical, where i learned how to use shop tools (cnc, mill,
+              etc.). i moved to cad, where i designed important aspects of the
+              robot. now, i serve as the electrical captain, where i manage all
+              the electrical work for the team. i also continue to work on the
+              previous subteams.
+            </p>
             <h1 className="text-6xl w-1/4 pt-2" id="robotics">
               Robotics
             </h1>
-            <p className="pt-4 text-lg w-1/3">i am a part of frc team 4384</p>
-
             <img className="w-1/3" src={Robotics} />
           </div>
         </div>
