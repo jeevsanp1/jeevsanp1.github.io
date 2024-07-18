@@ -16,10 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           path="/"
           element={<FollowerPointerCard children={<Homepage />} />}
         ></Route>
-        <Route
-          path="/contact"
-          element={<FollowerPointerCard children={<Contact />} />}
-        ></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

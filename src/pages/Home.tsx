@@ -1,11 +1,13 @@
 import { FlipWords } from "./flipwords";
 import ".././index.css";
+//import all svg and images
 import SanjeevImage from "../assets/sanjeev.jpeg";
 import ImageName from "../assets/name.svg";
 import PeakOne from "../assets/layered-peaks-haikei.svg";
 import WaveOne from "../assets/layered-waves-haikei.svg";
-
+import PolygonOne from "../assets/polygon-scatter-haikei.svg";
 import Robotics from "../assets/Robotics.jpeg";
+import Contact from "./contact";
 
 function Homepage() {
   const words1: any = [
@@ -83,6 +85,8 @@ function Homepage() {
             <img className="w-1/3" src={Robotics} />
           </div>
         </div>
+        <img className="w-full" src={PolygonOne} />
+        <Contact />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ function Nav() {
             <a href="/#robotics">Robotics</a>
           </li>
           <li className="px-4">
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
