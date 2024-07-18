@@ -15,6 +15,29 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 3.5s linear infinite',
+        'aurora': "aurora 60s linear infinite",
+        'shimmer': "shimmer 2s linear infinite"
+      },
+      backgroundImage: {
+        'grid-low-poly': "url('/src/assets/low-poly-grid-haikei.svg')"
+      },
+      keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0"
+          },
+          to: {
+            backgroundPosition: "-200% 0"
+          }, 
+      },
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        }, 
       }
     },
   },

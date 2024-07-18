@@ -23,7 +23,7 @@ function Homepage() {
     <div className="flex flex-col font-display">
       <div className="flex flex-col items-center w-full bg-emerald-200">
         <img
-          className="size-64 pt-10 hover:animate-spin-slow"
+          className="size-64 pt-4 hover:animate-spin-slow"
           src={ImageName}
         ></img>
         <h1 className="pt-4 pb-12 text-2xl text-center w-2/5">
@@ -55,7 +55,7 @@ function Homepage() {
             a job in the field of cs/ee + business. <br />i have experience in
             building react apps, figma mockups. outside of webdev, i am
             proficient in CAD (Onshape), electrical (FRC-specific), and
-            public-speaking. but, to really understand who i am, keep reading
+            public-speaking.
           </p>
 
           <img className="w-1/3" src={SanjeevImage} />
