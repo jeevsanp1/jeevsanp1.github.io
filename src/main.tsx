@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Homepage from "./pages/Home.tsx";
+import Personalp from "./pages/personalp.tsx";
 import { FollowerPointerCard } from "./pages/following-pointer.tsx";
 import Nav from "./pages/nav.tsx";
 import "./index.css";
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           path="/"
           element={<FollowerPointerCard children={<Homepage />} />}
         ></Route>
+        <Route path="/personal" element={<Personalp />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

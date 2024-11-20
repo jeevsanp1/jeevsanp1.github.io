@@ -17,6 +17,9 @@ function Nav() {
           <li className="px-4">
             <a href="#contact">Contact</a>
           </li>
+          <li className="px-4 text-green-400">
+            <a href="#personal">Personal Projects</a>
+          </li>
         </ul>
       </div>
     </>
